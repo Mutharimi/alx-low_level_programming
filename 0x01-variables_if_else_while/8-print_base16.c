@@ -8,17 +8,15 @@
  *
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-int digit = 32;
+int digit = 48;/48;
 
-while (digit <= 96)/96;
+while (digit <= 102)/102;
 {
 putchar(digit);
-
-if (digit == 48)
-digit += 32;
+if (digit == 57)
+digit += 39;
 ++digit;
 }
 putchar('\n');
