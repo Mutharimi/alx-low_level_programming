@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - Entry point
@@ -13,28 +11,41 @@
 
 int main(void)
 {
-int digit1 = 0, digit2;
-while (digit1 <= 9)
-{
-digit2 = 0;
-while (digit2 <= 9)
-{
-if (digit1 != digit2 && digit1 < digit2)
-{
-putchar(digit1 + 48);
-putchar(digit2 + 48);
+int i = 0;
+int j, k;
 
-if (digit1 + digit2 != 17)
+while (i <= 9)
 {
+j = 0;
+while (j <= 9)
+{
+k = 0;
+while (k <= 9)
+{
+if (i != j &&
+i < j &&
+j != k &&
+j < k)
+{
+putchar(i + 48);
+putchar(j + 48);
+putchar(k + 48);
+
+if (i + j + k != 24)
+
+{  
 putchar(',');
 putchar(' ');
 }
 }
-++digit2;
+++i;
 }
-++digit1;
+++j;
+}
+++k;
 }
 putchar('\n');
 
 return (0);
 }
+
