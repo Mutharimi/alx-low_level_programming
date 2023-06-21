@@ -2,18 +2,18 @@
 
 /**
  * main - check the code
- *
+ *description: prints the alphabet, in lowercase, followed by a new line
  * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-char letter;
-for (char letter = 'a'; letter <= 'z'; letter++)
+char i;
+for (i = 'a'; i <= 'z'; i++)
 {
-putchar(letter);
+_putchar(i);
 }
-putchar('\n');
+_putchar('\n');
 }
 int main(void)
 {
