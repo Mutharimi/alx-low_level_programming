@@ -17,7 +17,7 @@ int i;
 for (i = 1; i <= m; i++)
 {
 _putchar('_');
-}	
+}
 _putchar('\n');
 }
 
