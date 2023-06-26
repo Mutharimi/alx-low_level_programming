@@ -7,9 +7,9 @@
  * @b: to swap
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-int o; /*temporary storag */e
+int o; /*temporary storag */
 o = *a;
 *a = *b;
 *b = o;
