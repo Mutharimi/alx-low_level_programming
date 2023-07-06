@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _sqrt_recursion - function that returns the square root of a number
  * @n: input number
@@ -18,7 +19,7 @@ int _sqrt_recursion(int n)
  * Return: square root
  */
 
-int actual_sqrt_recursion(int n, int j)
+int _sqrt_recursion(int n, int j)
 {
 	if (j * j > n)
 		return (-1);
@@ -26,4 +27,3 @@ int actual_sqrt_recursion(int n, int j)
 		return (j);
 	return (actual_sqrt_recursion(n, j + 1));
 }
-
