@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
- * *argstostr - main entry
+ * * argstostr - main entry
  * @ac: int input
- * @av: double pointer
- * Returns: 0
+ * @av: double pointer array
+ * Return: 0
 */
 
 
